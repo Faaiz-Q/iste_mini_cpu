@@ -22,3 +22,8 @@ git add .
 git commit -m "Added 3 new practice files to basics track"
 git pull --rebase origin basics
 git push origin basics
+
+
+# note, for these changes to reflect on the local machine. (in case you're also keeping the files local)
+git checkout basics # basics should be replaced by whatever branch you're using, I recommend not using any branches make all changes to your main branch itself
+git pull origin basics
